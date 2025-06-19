@@ -36,6 +36,7 @@ def setup_tray():
     threading.Thread(target=icon.run, daemon=True).start()
 
 
+#終了処理
 def quit(icon, item):
     icon.stop()
 
