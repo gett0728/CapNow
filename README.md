@@ -18,7 +18,7 @@ PyInstaller: 6.13.0
 
 CapNowはPythonで記述されているため、まず `.exe` にビルドする必要があります。
 
-以下のコマンドでPyInstallerをインストールします
+以下のコマンドでPyInstallerをインストールします。
 
 ```bash
 pip install pyinstaller
