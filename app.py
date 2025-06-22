@@ -21,7 +21,6 @@ def check_running():
         return None
     
 
-
 #ポップアップメニュー
 def setup_tray():
     icon_path = resource_path("images/icon.png")
@@ -46,7 +45,6 @@ def quit(icon, item):
             os.remove(os.path.join(os.environ.get("TEMP", "."), LOCK_FILE))
         except:
             pass
-        
 
     os._exit(0)
 
